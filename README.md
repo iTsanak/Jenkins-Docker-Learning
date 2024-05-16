@@ -25,6 +25,7 @@ docker rm jenkins
 
 ## Remove the Existing Volume:
 This is important to remove the old configuration data that's causing the setup wizard to persist.
+
 `docker volume rm jenkins_home`
 
 ## Recreate the Container with the Setup Wizard Disabled:
