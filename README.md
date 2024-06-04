@@ -6,6 +6,7 @@ Learning Jenkins and Docker
 To initialise Jenkins using Docker you need to download the Docker desktop first: https://docs.docker.com/get-docker/
 
 ## Check the Docker version
+
 `docker --version`
 ## Pull the latest jenkins version
 `docker pull jenkins/jenkins:lts`
